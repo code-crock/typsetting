@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  font-family: 'Aleo', serif;
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+
+html {
+  /* sitewide font */
+  font-size: 10px;
+}
+
+/*  title font: Aleo
+    body font: Crimson Text */
+
+body {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  word-spacing: .05rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+nav {
+  font-family: 'Aleo', serif;
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* section styling */
+section>p {
+  text-indent: 1.75rem;
+}
+
+section>p>a {
+  color: #a66;
+  background-image: url('external-link-52.png');
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 18px;
+}
+
+section>ul>li {
+  list-style-type: square;
+}
+
+section>ol>li {
+  list-style-type: lower-alpha
+}
+
+section>ol>li>a {
+  color: #a66;
+}
+
+/* aside element styling*/
+aside>p>a {
+  /* see more */
+  color: #a66;
+  font-family: 'Aleo';
+  letter-spacing: 0.05rem;
+}
+
+aside>ul>li {
+  list-style-type: square;
+}
+
+aside>ul>li>a {
+  color: #a66;
+  font-family: 'Aleo';
+  letter-spacing: 0.05rem;
+}
+
+/* nav element styling */
+nav>ul>li {
+  border: 1px solid #a66;
+  border-radius: 3px;
+  list-style-type: none;
+  padding: 16px;
+  margin: 10px;
+  text-align: center;
+}
+
+nav>ul>li>a {
+  color: #a66;
+  text-decoration: none;
+}
+
+
+/* link behavior */
+a {
+  color: #a66;
+}
+
+a:visited {
+  color: #844;
+}
+
+
+a:hover,
+a:focus {
+  color: #c88;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:active {
+  color: #d44;
+  font-weight: bold;
+}
